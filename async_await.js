@@ -11,7 +11,7 @@ const externalResponse = new Promise((resolve, reject) => {
     }, 2000);
 });
 
-// Exectue the promise and do something with the data we received.
+// Execute the promise and do something with the data we received.
 // externalResponse.then((response) => {
 //     response.somethingElse = 'example updated in a promise chain';
 //     // Pass the object to the next promise chain.
@@ -38,7 +38,7 @@ const externalResponseFail = new Promise((resolve, reject) => {
     }, 2000);
 });
 
-// Exectue the promise and do something with the data we received.
+// Execute the promise and do something with the data we received.
 // externalResponseFail.then((response) => {
 //     response.somethingElse = 'example updated in a promise chain';
 
