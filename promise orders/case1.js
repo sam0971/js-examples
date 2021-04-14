@@ -25,7 +25,7 @@ const externalResponse3 = new Promise((resolve, reject) => {
     }, 5000);
 });
 
-// Exectue the promise. In this example we wait for each promise to resolve first, before continuing.
+// Execute the promise. In this example we wait for each promise to resolve first, before continuing.
 externalResponse1.then((response1) => {
     console.log('response1', response1);
     return externalResponse2;
