@@ -8,7 +8,8 @@ const house = {
     }
 };
 
-// The below example with throw a TypeError. TypeError: Cannot read property 'chimney' of undefined. This is because the house object does not contain a roof property.
+// The below example will throw a TypeError. TypeError: Cannot read property 'chimney' of undefined. 
+// This is because the house object does not contain a roof property.
 console.log(house.roof.chimney);
 
 // We can do this with a if statement. But this will become unreadable with multiple deeper nested properties.
